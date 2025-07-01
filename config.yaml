@@ -1,0 +1,16 @@
+# 配置文件模板
+admin:
+  telegram_ids: [123456789,987654321]   # 管理员 Telegram ID 列表
+bot_token: "123456789:XXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"              # 管理机器人 Bot Token
+clients:
+  - api_id: 12345678
+    api_hash: "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+notify_targets:
+  groups: ["-1001234567890","@groupusername"]  # 通知群组ID或用户名
+  users: [123456789,987654321]                  # 通知用户ID
+pm_template: "🔔 检测到关键词：{keyword}\n👤 用户名：@{username}\n🧑 昵称：{nickname}\n📝 内容：{message}"
+database:
+  path: "./data/bot.db"
+logging:
+  level: "info"
+  file: "./logs/bot.log" 
