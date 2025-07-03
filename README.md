@@ -23,14 +23,14 @@
 - 索引机器人 https://github.com/gooso1/GoSearch_Keyword_listen
 
 ## 联系我们
-- telegram @GoSearch
+- telegram @GoSearch1
 
 ## 赞助我们
 - TRC20 TAwZhEJkQqoaHqz6e2rPsPd2SCMNKx2C8s
 
 ## 目录结构
 ```
-telegram-keyword-watcher/
+GoSearch_Keyword_listen/
 ├── data/                    # 数据库存放
 ├── sessions/                # session 文件
 ├── logs/                    # 日志
